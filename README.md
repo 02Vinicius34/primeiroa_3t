@@ -1,8 +1,8 @@
-# Terceiro trimestre
+# TERCEIRO trimestre
 
- ##Identificação
- Vinicius Mariano - Nr . 34
- 
-  ## Conteudo
-  HTML,CSS,
-  
+## identificaçao
+Nome: Vinicius N: 34
+
+## conteudo 
+HTML, CSS e javaScriptt
+
