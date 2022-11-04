@@ -30,6 +30,7 @@ function quadrado(){
     for(let i = 1; i <= 499; i++){
     document.write("O quadrado de " + i + " é " + (i*i)+ "<br>");
     }
+    
 }
 function moeda(atual){
     return atual.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
