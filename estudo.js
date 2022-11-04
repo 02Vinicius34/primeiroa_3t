@@ -60,14 +60,17 @@ document.getElementById("valor").focus();
                 return
             }
            let r = c;
+           let texto = ""
            for(let m = 1; m <= t ; m++){
             r = c * (1 + (j / 100));
             r = r;
-            document.write("resultado:" + moeda (r)+"<br>")
+            texto += m +":" +  moeda (r)+"<br>"
+    //      document.write("resultado:" + moeda (r)+"<br>")
 
            }
-   
-    document.write("resultado: " + moeda(r));
+           document.getElementById("total").innerHTML = moeda(r);
+           document.getElementById("spListaMeses").innerHTML = texto;
+    //document.write("resultado: " + moeda(r));
 }
 
 let op = "";
