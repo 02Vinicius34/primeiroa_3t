@@ -13,6 +13,16 @@
     border-radius:8px ;
     padding:10px ;
 }
+.calculadora input:focus {
+   background: azure;
+   color: azure;
+}
+.calculadora button {
+    background: brown;
+    color: rgb(253, 252, 252);
+    padding: 5px;
+    margin-top: 30px;
+}
 #sptotal {
     background: black;
     color: rgb(255, 217, 0);
@@ -43,4 +53,14 @@
     font-size: 10px;
     margin-top: 10px;
 
+}
+#sListaMesses {
+   background: brown;
+   color: black;
+   text-align: center;
+   margin-top: 19px;
+   border-color: blue;
+   border-radius: 19px;
+   border-width: 2px;
+   border-style: dashed;
 }
